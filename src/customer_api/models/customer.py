@@ -7,7 +7,7 @@ from pydantic import BaseModel, EmailStr
 
 
 class Customer_request(BaseModel):
-    name = str
-    email = EmailStr
-    phone = Optional[str]
-    birth_date = Optional[date]
+    name: str
+    email: EmailStr
+    phone: Optional[str]
+    birth_date: Optional[date]

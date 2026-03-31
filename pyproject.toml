@@ -5,7 +5,7 @@ description = "API de Cadastro de Cliente"
 authors = [
     {name = "mccaetano",email = "marcelo.cheruti@gmail.com"}
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
 ]
 
