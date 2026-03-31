@@ -11,3 +11,13 @@ class Customer_request(BaseModel):
     email: EmailStr
     phone: Optional[str]
     birth_date: Optional[date]
+
+class Customer_response(BaseModel):
+    id: int
+    name: str
+    email: EmailStr
+    phone: Optional[str]
+    birth_date: Optional[date]
+
+    class Config:
+        from_attributes = True

@@ -1,9 +1,9 @@
 [project]
-name = "customer-api"
+name = "pydemo"
 version = "0.1.0"
-description = "API de Cadastro de Cliente"
+description = ""
 authors = [
-    {name = "mccaetano",email = "marcelo.cheruti@gmail.com"}
+    {name = "mccataeno",email = "marcelo.cheruti@gmail.com"}
 ]
 requires-python = ">=3.12"
 dependencies = [
