@@ -1,0 +1,1 @@
+poetry run uvicorn customer_api.main:app --app-dir src --reload
